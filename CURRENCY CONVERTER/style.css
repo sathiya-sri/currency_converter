@@ -1,0 +1,79 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#3299e6;
+}
+.currency{
+    margin:70px auto;
+    width:450px;
+    min-height:20vh;
+    border:1px solid white;
+    background-color:white;
+}
+.container{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    grid-template-columns:1fr 1fr;
+}
+#from,#to{
+    margin:0px 30px 0px 28px;
+    padding:10px 50px 10px 50px;
+    width:170px;
+    margin-top:5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+    outline:none;
+    cursor:pointer;
+    border:none;
+}
+.container .from h1,.container .to h1{
+    margin-left:30px;
+    text-align:left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    margin:25px;
+}
+.btn button,.btn input{
+    margin-top:20px;
+    text-align:center;
+    padding:10px;
+    width:400px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+    outline:none;
+    cursor:pointer;
+    border:none;
+}
+.btn input{
+    width:378px;
+    border:1px solid black;
+}
+.currency h1{
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.btn button{
+    color:white;
+    font-weight:bolder;
+    letter-spacing:2px;
+    background-color:#3299e6;
+}
+.container .from #from:hover,.container .to #to:hover{
+    border:2px solid #3299e6;
+}
+select{
+    border-radius:2px;
+    background-repeat:no-repeat;
+    background-position:right 50px top 50%, center;
+    background-color:#3299e6;
+    color:#fff;
+    letter-spacing:1.5px;
+}
+.container .from select option,.container .to select option{
+    background-color:#fff;
+    color:#000;
+}
